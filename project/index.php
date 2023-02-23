@@ -1,0 +1,5 @@
+<?php
+
+REQUIRE "index.html";
+
+?>

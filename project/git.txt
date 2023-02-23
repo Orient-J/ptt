@@ -1,0 +1,70 @@
+=> GIT VERSION CHECK
+
+git --version 
+git 
+
+=> GENERATE SSH KEY 
+
+ssh-keygen
+enter 
+enter
+enter
+
+//auto generate the .ssh folder path where key generated locate	
+
+=> CHECK SSH KEY
+
+ssh -T git@github.com
+
+=> CONFIGURING GIT
+
+git config --global user.name "KyawPS"
+git config --email user.email "sthluf@gmail.com"
+
+=> CHECK USER AND EMAIL
+
+git config user.name
+git config user.email
+
+=> ADD REMOTE 
+
+git remote add origin git@github.com:username/repositoryname.git
+
+=> CHECK REMOTE 
+
+git remote -v
+
+
+=> git install
+
+git init 
+
+=> CHECK FILES ADDED TO .GIT 
+
+git status 
+
+=> ADDING FILES TO .GIT
+
+git add -A
+
+=> GIVE COMMIT 
+
+git commit -m "comments"
+
+=> PUSH GITHUB SERVER
+
+git push -u origin master	
+
+
+=> heroku cli 
+
+
+go to your project folder
+git init 
+heroku login
+heroku git:remote -a [projectname] 
+git add .
+git commit -am "comment"
+git push heroku master	
+
+
